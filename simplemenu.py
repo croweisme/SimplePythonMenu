@@ -3,7 +3,15 @@
 #Now i need to learn how to add functions and things to a menu like this 
 print("Choose an option:","Option 1","Option 2","Option 3"," Quit: 4", sep = '\n')
 choice = input()
+#variables assigned inside functions do not persist outside of funtions
 
+#kaleb says instead of choice == value, make the function return a value and set the loop to check for function == value
+#alternative, make the function return the input, and set choice = to the function 
+
+#so choice = function()
+#function()
+    #yada yada yada ya
+    #return a value
 
 while True:
     if choice =='1':
